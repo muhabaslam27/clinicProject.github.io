@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .background-radial-gradient {
+            background-image: url('https://img.freepik.com/free-photo/happy-doctor-holding-clipboard-with-patients_1098-2176.jpg?w=900&t=st=1694330748~exp=1694331348~hmac=ecd5bf7d01d8522a513861d1aa0bc43cba90e63dc0867b7cff969ceed2717c6e');
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-blend-mode: soft-light;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: soft-light;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Section: Design Block -->
+    <section class="background-radial-gradient overflow-hidden p-7">
+        <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+            <div class="row gx-lg-5 align-items-center mb-5">
+                <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+                    <h1 class="my-3 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+                        The best doctors <br />
+                        <span style="color: hsl(218, 81%, 75%)">treat patients to cure</span>
+                    </h1>
+                    <p class="mb-4 opacity-70 fw-bold" style="color: hsl(218, 81%, 85%)">
+                        Stay Safe! Stay Sound!
+                    </p>
+                </div>
+
+                <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+                    <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+                    <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+
+                    <div class="card bg-glass pb-5">
+                        <div class="row text-center fs-1 mt-3">
+                            <div class="col-md-12">
+                                <i class="fa-solid fa-user-doctor"></i>
+                                <small>Shaheen Clinic</small>
+                            </div>
+                        </div>
+                        <div class="card-body px-4 py-3 px-md-5">
+                            <form>
+                                <!-- 2 column grid layout with text inputs for the first and last names -->
+                                <div class="row">
+
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="userEmail">Email address</label>
+                                        <input type="email" id="userEmail" name="userEmail" class="form-control" />
+                                    </div>
+
+                                    <!-- Password input -->
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="userPassword">Password</label>
+                                        <input type="password" id="userPassword" name="userPassword"
+                                            class="form-control" />
+                                    </div>
+
+                                    <!-- Submit button -->
+                                    <div class="row text-center">
+                                        <div class="col-md-12">
+                                            <button type="submit"
+                                                class="btn btn-primary btn-block mb-4 text-center text-white">
+                                                <a href="Home_page.php">Login</a>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Register buttons -->
+                                    <div class="text-center">
+                                        <p><a class="fw-bold fst-underline text-black" href="Sign_up_page.php"
+                                                target="_blank"><u>Don't have an account?</u></a></p>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Design Block -->
+
+    <!-- JS Bootstap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
